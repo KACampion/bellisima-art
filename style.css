@@ -19,7 +19,8 @@ body {
   border: none;
 }
 
-div {
+div,
+nav {
   border: 2px solid maroon;
 }
 
@@ -82,4 +83,9 @@ img {
 .caption {
   font-family: "Ephesis", cursive;
   font-size: 1.5rem;
+}
+
+/* Gallery Photos */
+.gallery [class*="col-"] {
+  padding: 0.5%;
 }
