@@ -20,7 +20,8 @@ body {
 }
 
 div,
-nav {
+nav,
+input {
   border: 2px solid maroon;
 }
 
