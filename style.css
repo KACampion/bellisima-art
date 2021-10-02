@@ -13,14 +13,14 @@ Raleway 300;400;500;600;800;100;400;700
 }
 
 /* Temporary Styles */
-* {
-  padding: 0.5rem;
-  border: 1px solid grey;
-}
 *,
 html,
 body {
   border: none;
+}
+
+div {
+  border: 2px solid maroon;
 }
 
 h1,
@@ -64,25 +64,6 @@ a {
   color: white;
 }
 
-.tall-40 {
-  min-height: 40vh;
-}
-.tall-50 {
-  min-height: 50vh;
-}
-.tall-60 {
-  min-height: 60vh;
-}
-.tall-70 {
-  min-height: 70vh;
-}
-.tall-80 {
-  min-height: 80vh;
-}
-.tall-90 {
-  min-height: 90vh;
-}
-
 /* Utilities */
 body {
   font-family: "Raleway", sans-serif;
@@ -90,4 +71,15 @@ body {
 
 .logo {
   font-family: "Ephesis", cursive;
+  font-size: 4rem;
+}
+
+img {
+  max-width: 20%;
+  display: inline-block;
+}
+
+.caption {
+  font-family: "Ephesis", cursive;
+  font-size: 1.5rem;
 }
