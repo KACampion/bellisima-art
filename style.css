@@ -283,7 +283,7 @@ p {
 .portrait {
   padding-bottom: 134%;
 }
-.sqaure {
+.square {
   padding-bottom: 100%;
 }
 .landscape {
@@ -315,12 +315,12 @@ header a {
 }
 
 /* Gallery Photos */
-.gallery [class*="col-"] {
-  padding: 13rem;
-}
 
 .gallery-1 [class*="col-"] {
   padding: 0.5%;
+}
+.gallery [class*="col-"] {
+  padding: 13rem;
 }
 
 /* Input Form */
