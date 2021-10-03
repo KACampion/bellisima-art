@@ -142,6 +142,8 @@ nav a {
 
 a:hover {
   color: #376168;
+  font-style: normal;
+  font-weight: bold;
 }
 
 /*Background Images*/
