@@ -55,6 +55,10 @@ a {
 .padded-2 {
   padding: 2rem;
 }
+
+.padded-4 {
+  padding: 4%;
+}
 .padded-t {
   padding-top: 5%;
 }
@@ -66,6 +70,9 @@ a {
 }
 .padded-r {
   padding-right: 3%;
+}
+.padded-g {
+  padding: 0 5rem 0 5rem;
 }
 .padded-0 {
   padding: 0;
@@ -134,6 +141,10 @@ body {
   font-weight: 600;
 }
 
+footer .caption {
+  font-size: 4rem;
+}
+
 nav a {
   text-decoration: none;
   color: white;
@@ -141,12 +152,58 @@ nav a {
 }
 
 a:hover {
-  color: #376168;
+  color: #c0b44d;
   font-style: normal;
   font-weight: bold;
+  cursor: pointer;
 }
 
-/*Background Images*/
+.creation {
+  font-size: 2.1rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #380906;
+  text-decoration: underline #380906;
+}
+
+.banner-text {
+  color: white;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.arrow {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.social-text {
+  color: white;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+.fab {
+  padding: 3%;
+  font-size: 1.7rem;
+  color: white;
+}
+
+a .fab:hover {
+  color: #c0b44d;
+  font-style: normal;
+  cursor: pointer;
+}
+
+p {
+  font-size: 1.3rem;
+  color: #f8f6f4;
+}
+
+/*Background & Background Images*/
 
 .bg-featured {
   background-color: #ececc5;
@@ -161,8 +218,93 @@ a:hover {
   background-color: #f8f6f4;
 }
 
+.bg-image {
+  background-color: rgb(240, 240, 240);
+  background-image: url("/images/art_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+  border: 5px solid #f8f6f4;
+}
+
 .bg-header {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/geometric-leaves.png");
+}
+
+.bg-art-2 {
+  background-image: url("/images/art_2.jpg");
+}
+
+.bg-art-3 {
+  background-image: url("/images/art_3.jpg");
+}
+
+.bg-art-4 {
+  background-image: url("/images/art_4.jpg");
+}
+
+.bg-art-5 {
+  background-image: url("/images/art_5.jpg");
+}
+
+.bg-art-6 {
+  background-image: url("/images/art_1.jpg");
+}
+
+.bg-art-7 {
+  background-image: url("/images/art_7.jpg");
+}
+
+.bg-art-8 {
+  background-image: url("/images/art_8.jpg");
+}
+
+.bg-art-9 {
+  background-image: url("/images/art_9.jpg");
+}
+
+.bg-portrait {
+  background-image: url("/images/portrait.jpg");
+  border: none;
+  box-shadow: -5px 5px 5px gray;
+}
+
+/**Aspect Ratios*/
+.portrait-xl-tall {
+  padding-bottom: 203%;
+}
+.portrait-tall {
+  padding-bottom: 175%;
+}
+.portrait-md {
+  padding-bottom: 141%;
+}
+.portrait {
+  padding-bottom: 134%;
+}
+.sqaure {
+  padding-bottom: 100%;
+}
+.landscape {
+  padding-bottom: 66%;
+}
+.lanscape-wide {
+  padding-bottom: 56%;
+}
+
+/*Background Position*/
+.bg-pos-t {
+  background-position: top;
+}
+.bg-pos-b {
+  background-position: bottom;
+}
+.bg-pos-r {
+  background-position: right;
+}
+.bg-pos-l {
+  background-position: left;
 }
 
 /* Header and Footer */
@@ -174,6 +316,10 @@ header a {
 
 /* Gallery Photos */
 .gallery [class*="col-"] {
+  padding: 13rem;
+}
+
+.gallery-1 [class*="col-"] {
   padding: 0.5%;
 }
 
