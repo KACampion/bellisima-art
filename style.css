@@ -1,7 +1,13 @@
 /* Notes
-Font sizes:
-Raleway 300;400;500;600;800;100;400;700
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;500;600;700
+    
+    font-family: 'Zilla Slab', serif;
+    font-weight:0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700
 
+    background-color:#ECECC5
+    background-color:#143E3C
+    color:#29504E
 
 */
 
@@ -13,7 +19,7 @@ Raleway 300;400;500;600;800;100;400;700
 }
 
 /* Temporary Styles */
-*,
+/* *,
 html,
 body {
   border: none;
@@ -21,7 +27,8 @@ body {
 
 div,
 nav,
-input {
+input,
+textarea {
   border: 2px solid maroon;
 }
 
@@ -34,22 +41,40 @@ h6,
 p,
 a {
   border: 2px solid teal;
-}
+} */
 
 /* End Temprary Styles */
 
-/* Utilities */
+/*Universal Styles and Utilities*/
 .padded {
   padding: 5%;
 }
 .padded-1 {
   padding: 1rem;
 }
-.padded-05 {
-  padding: 0.5rem;
-}
 .padded-2 {
   padding: 2rem;
+}
+.padded-t {
+  padding-top: 5%;
+}
+.padded-b {
+  padding-bottom: 5%;
+}
+.padded-l {
+  padding-left: 3%;
+}
+.padded-r {
+  padding-right: 3%;
+}
+.padded-0 {
+  padding: 0;
+}
+.padded-b-0 {
+  padding-bottom: 0;
+}
+.margin-b-0 {
+  margin-bottom: 0;
 }
 
 .left {
@@ -61,32 +86,103 @@ a {
 .right {
   text-align: right;
 }
-
 .light-text {
   color: white;
 }
 
-/* Utilities */
-body {
-  font-family: "Raleway", sans-serif;
+.tall-50 {
+  min-height: 50vh;
 }
-
-.logo {
-  font-family: "Ephesis", cursive;
-  font-size: 4rem;
+.tall-60 {
+  min-height: 60vh;
+}
+.tall-70 {
+  min-height: 70vh;
+}
+.tall-80 {
+  min-height: 80vh;
+}
+.tall-90 {
+  min-height: 90vh;
+}
+.tall-100 {
+  min-height: 100vh;
 }
 
 img {
-  max-width: 20%;
-  display: inline-block;
+  max-width: 100%;
+}
+
+.logo-pic {
+  max-width: 30%;
+}
+
+/*Typography Styles*/
+body {
+  font-family: "Zilla Slab", serif;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 8rem;
+  font-weight: 700;
 }
 
 .caption {
-  font-family: "Ephesis", cursive;
-  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
+
+a:hover {
+  color: #376168;
+}
+
+/*Background Images*/
+
+.bg-featured {
+  background-color: #ececc5;
+}
+.bg-banner {
+  background-color: #376168;
+}
+.bg-dark {
+  background-color: #380906;
+}
+.bg-light {
+  background-color: #f8f6f4;
+}
+
+.bg-header {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/geometric-leaves.png");
+}
+
+/* Header and Footer */
+header a {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 /* Gallery Photos */
 .gallery [class*="col-"] {
   padding: 0.5%;
+}
+
+/* Input Form */
+
+input,
+textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.2rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 0.9rem;
 }

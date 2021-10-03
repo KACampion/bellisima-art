@@ -16,13 +16,10 @@
       referrerpolicy="no-referrer"
     />
 
-    <!--Google Fonts 200,400,500,800 font weights-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,800;1,100;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
 
     <!---------------------------------Font Awesome Icons-->
     <link
@@ -40,11 +37,11 @@
   <!--------------------------------------- Body Begins -->
   <body>
     <!---------------------------------------Header -->
-    <header class="grid padded-1">
-      <div class="col-4-middle">
-        <img src="images/Logo.jpg" />
+    <header class="grid padded-1 bg-dark">
+      <div class="col-4-middle padded-l">
+        <img src="images/Logo.jpg" class="logo-pic" />
       </div>
-      <nav class="col-8-middle right">
+      <nav class="col-8-middle right padded-r">
         <a href="/index.html">Home</a>
         <a href="/image_gallery.html">Image Gallery</a>
         <a href="/about.html">About</a>
@@ -53,20 +50,20 @@
     </header>
 
     <!-------------------------------------- Banner -->
-    <section class="grid padded-1">
+    <section class="grid padded bg-header">
       <div class="col-12-middle padded-2">
         <h2 class="logo center">Bellisima</h2>
-        <h3 class="caption center padded-05">Artwork by Jude</h3>
+        <h3 class="caption center padded-05">Artwork and Crafts by Jude</h3>
       </div>
     </section>
 
     <!--------------------------------------------- Featured Image Gallery -->
-    <section class="grid center padded-1">
+    <section class="grid center padded bg-light">
       <div class="col-12-middle">
         <h3 class="center padded-1">Newest Creations</h3>
       </div>
     </section>
-      <section class= "gallery grid padded-2"> 
+      <section class= "gallery grid padded-2 bg-light"> 
       <div class="col-4">Pic 1</div>
       <div class="col-8">Pic 2</div>
       <div class="col-7">Pic 3</div>
@@ -77,7 +74,7 @@
     </section>
 
     <!-------------------------------------------Call to action -->
-    <section class="grid padded-1">
+    <section class="grid padded-05 bg-banner">
       <div class="col-12 center padded-2">
         <p>
           Have a suggestion for my next painting? Send me an email &#8620
@@ -86,9 +83,9 @@
     </section>
 
   <!--------------------------------------------Footer -->
-    <footer class="grid padded-1">
+    <footer class="grid padded bg-dark light-text">
       <div class="col-8 padded-2">
-        <h3 class=caption>Bellisima</h3>
+        <h2 class=caption>Bellisima</h2>
       </div>
       <div class="col-4 center padded-2">
         <h3>You Can Follow Me Here!</h3>
