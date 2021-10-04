@@ -83,7 +83,15 @@ a {
 .margin-b-0 {
   margin-bottom: 0;
 }
-
+.window {
+  max-width: 40%;
+  border-radius: 70% 60%;
+  -webkit-border-radius: 70% 60%;
+  -moz-border-radius: 70% 60%;
+  -ms-border-radius: 70% 60%;
+  -o-border-radius: 70% 60%;
+  box-shadow: 10px 10px 5px #c0b44d;
+}
 .left {
   text-align: left;
 }
@@ -172,6 +180,12 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.image-gallery-text {
+  color: black;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
 .arrow {
   padding: 0.5rem;
   text-decoration: none;
@@ -201,6 +215,13 @@ a .fab:hover {
 p {
   font-size: 1.3rem;
   color: #f8f6f4;
+}
+
+.gallery-header {
+  font-size: 3rem;
+  font-style: italic;
+  color: #376168;
+  text-decoration: underline;
 }
 
 /*Background & Background Images*/
@@ -286,11 +307,17 @@ p {
 .square {
   padding-bottom: 100%;
 }
+.landscape-xl-wide {
+  padding-bottom: 79%;
+}
 .landscape {
   padding-bottom: 66%;
 }
-.lanscape-wide {
+.landscape-wide {
   padding-bottom: 56%;
+}
+.landscape-sm {
+  padding-bottom: 30%;
 }
 
 /*Background Position*/
