@@ -37,17 +37,19 @@
   <!--------------------------------------- Body Begins -->
   <body>
     <!---------------------------------------Header -->
-    <header class="grid padded center bg-dark">
-      <nav class="col-12-middle">
+    <header class="grid padded-1 bg-banner">
+      <div class="col-4-middle padded-l">
+        <img src="images/Logo.jpg" class="window logo-pic" />
+      </div>
+      <nav class="col-8-middle right padded-r">
         <a href="/index.html">Home</a>
         <a href="/image_gallery.html">Image Gallery</a>
         <a href="/about.html">About</a>
         <a href="/contact.html">Contact</a>
       </nav>
     </header>
-
     <!-------------------------------------------- Conact Form -->
-    <section class="grid center padded-1">
+    <section class="grid center bg-featured padded">
       <div class="col-12-middle">
         <h5>
           Have a suggestion or question? <br />
@@ -56,34 +58,42 @@
       </div>
     </section>
 
-    <form class="grid-center padded-1" action="#" method="POST">
-      <input class="col-3" type="text" name="name" placeholder="Your Name" />
-      <input
-        class="col-3"
-        type="email"
-        name="_replyto"
-        placeholder="Your Email"
-      />
-      <textarea
-        class="col-5"
-        name="message"
-        placeholder="Looking forward to hearing from you..."
-      ></textarea>
-      <input
-        class="col-2-middle center"
-        type="submit"
-        value="Send"
-        class="button"
-      />
+    <form class="grid-center bg-featured padded" action="#" method="POST">
+      <div class="col-6-middle">
+        <input
+          class="form-section"
+          type="text"
+          name="name"
+          placeholder="Your Name"
+        />
+      </div>
+      <div class="col-6-middle">
+        <input
+          class="form-section"
+          type="email"
+          name="_replyto"
+          placeholder="Your Email"
+        />
+      </div>
+      <div class="col-12">
+        <textarea
+          class="form-section message-send"
+          name="message"
+          placeholder="Looking forward to hearing from you..."
+        ></textarea>
+      </div>
+      <div class="col-2-middle">
+        <input class="button" type="submit" value="Send" />
+      </div>
     </form>
 
     <!------------------------------------------------Footer-->
-    <footer class="grid padded-1">
+    <footer class="grid padded-4 bg-dark light-text">
       <div class="col-8 padded-2">
-        <h3 class="caption">Bellisima</h3>
+        <h2 class="caption">Bellisima</h2>
       </div>
       <div class="col-4 center padded-2">
-        <h3>You Can Follow Me Here!</h3>
+        <h3 class="social-text">You Can Follow Me Here!</h3>
         <a href="#"><i class="fab fa-instagram"></i></a>
         <a href="#"><i class="fab fa-pinterest-p"></i></a>
         <a href="#"><i class="fab fa-facebook-f"></i></a>
