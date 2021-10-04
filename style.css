@@ -83,15 +83,7 @@ a {
 .margin-b-0 {
   margin-bottom: 0;
 }
-.window {
-  max-width: 40%;
-  border-radius: 70% 60%;
-  -webkit-border-radius: 70% 60%;
-  -moz-border-radius: 70% 60%;
-  -ms-border-radius: 70% 60%;
-  -o-border-radius: 70% 60%;
-  box-shadow: 10px 10px 5px #c0b44d;
-}
+
 .left {
   text-align: left;
 }
@@ -123,48 +115,11 @@ a {
 .tall-100 {
   min-height: 100vh;
 }
-
 img {
   max-width: 100%;
 }
-
 .logo-pic {
   max-width: 30%;
-}
-
-.button {
-  border-radius: 10%;
-  -webkit-border-radius: 10%;
-  -moz-border-radius: 10%;
-  -ms-border-radius: 10%;
-  -o-border-radius: 10%;
-  font-size: 1.2rem;
-  padding-top: 0.5rem;
-  background-color: #f8f6f4;
-  color: #380906;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-}
-
-.button:hover {
-  border-radius: 25%;
-  -webkit-border-radius: 25%;
-  -moz-border-radius: 25%;
-  -ms-border-radius: 25%;
-  -o-border-radius: 25%;
-  background-color: #380906;
-  color: #f8f6f4;
-  cursor: pointer;
-  transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
 }
 
 /*Typography Styles*/
@@ -184,10 +139,6 @@ body {
   font-weight: 600;
 }
 
-footer .caption {
-  font-size: 4rem;
-}
-
 nav a {
   text-decoration: none;
   color: white;
@@ -199,14 +150,6 @@ a:hover {
   font-style: normal;
   font-weight: bold;
   cursor: pointer;
-}
-
-.form-section {
-  color: black;
-  font-family: "Zilla Slab", serif;
-  font-size: 1.2rem;
-  border: 1.5px solid #380906;
-  text-align: center;
 }
 
 .message-send {
@@ -242,6 +185,10 @@ a:hover {
   font-size: 2rem;
 }
 
+.image-gallery-text .arrow:hover {
+  color: #2f6974;
+}
+
 .social-text {
   color: white;
   font-style: italic;
@@ -263,6 +210,12 @@ a .fab:hover {
 p {
   font-size: 1.3rem;
   color: #f8f6f4;
+  line-height: 1.7rem;
+  padding-bottom: 1.4rem;
+}
+
+p:last-child {
+  padding-bottom: 0;
 }
 
 .gallery-header {
@@ -270,6 +223,14 @@ p {
   font-style: italic;
   color: #376168;
   text-decoration: underline;
+}
+
+.about-title {
+  color: #ececc5;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  font-style: italic;
 }
 
 /*Background & Background Images*/
@@ -295,6 +256,11 @@ p {
   background-repeat: no-repeat;
   padding-bottom: 10%;
   border: 5px solid #f8f6f4;
+}
+
+.bg-logo {
+  background-image: url("/images/Logo.jpg");
+  border: 1px solid #376168;
 }
 
 .bg-header {
@@ -335,8 +301,17 @@ p {
 
 .bg-portrait {
   background-image: url("/images/portrait.jpg");
-  border: none;
-  box-shadow: -5px 5px 5px gray;
+  border: 1px solid #376168;
+}
+
+.window {
+  max-width: 40%;
+  border-radius: 70% 60%;
+  -webkit-border-radius: 70% 60%;
+  -moz-border-radius: 70% 60%;
+  -ms-border-radius: 70% 60%;
+  -o-border-radius: 70% 60%;
+  box-shadow: 10px 10px 5px #c0b44d;
 }
 
 /**Aspect Ratios*/
@@ -389,6 +364,10 @@ header a {
   font-weight: 500;
 }
 
+footer .caption {
+  font-size: 4rem;
+}
+
 /* Gallery Photos */
 
 .gallery-1 [class*="col-"] {
@@ -400,6 +379,14 @@ header a {
 
 /* Input Form */
 
+.form-section {
+  color: black;
+  font-family: "Zilla Slab", serif;
+  font-size: 1.2rem;
+  border: 1.5px solid #380906;
+  text-align: center;
+}
+
 input,
 textarea {
   width: 100%;
@@ -408,4 +395,39 @@ textarea {
   padding: 0.5rem;
   font-family: inherit;
   font-size: 0.9rem;
+}
+
+.button {
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  background-color: #f8f6f4;
+  color: #380906;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+
+.button:hover {
+  border-radius: 25%;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -ms-border-radius: 25%;
+  -o-border-radius: 25%;
+  background-color: #380906;
+  color: #f8f6f4;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
 }
