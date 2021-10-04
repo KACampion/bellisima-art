@@ -387,7 +387,6 @@ footer .caption {
 
 .form-section {
   color: black;
-  font-family: "Zilla Slab", serif;
   font-size: 1.2rem;
   border: 1.5px solid #380906;
   text-align: center;
@@ -436,4 +435,215 @@ textarea {
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
+}
+
+/* General CSS Responsive Styles (Apply everywhere unless overridden) */
+
+.show-xs,
+.show-sm,
+.show-md {
+  display: none;
+}
+
+@media (max-width: 67.5em) and (orientation: landscape) {
+  .portrait-xl-tall {
+    padding-bottom: 51%;
+  }
+  .portrait-tall {
+    padding-bottom: 56%;
+  }
+  .portrait-md {
+    padding-bottom: 48%;
+  }
+  .portrait {
+    padding-bottom: 35%;
+  }
+  .square {
+    padding-bottom: 25%;
+  }
+  .hide-md-land {
+    display: none;
+  }
+  .gallery [class*="col-"] {
+    padding: 8rem;
+  }
+  .md-image {
+    min-height: 25vh;
+  }
+  .md-padded-1 {
+    padding: 1rem;
+  }
+  .md-padded-05 {
+    padding: 0.5rem;
+  }
+}
+
+/* ------- MD Media Query (64em / 1024px) --------------- */
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
+
+@media (max-width: 64em) {
+  .show-md {
+    display: block;
+  }
+  .hide-md {
+    display: none;
+  }
+
+  .md-tall-40 {
+    min-height: 40vh;
+  }
+
+  .md-image {
+    min-height: 25vh;
+  }
+
+  .sm-image {
+    min-height: 10vh;
+  }
+
+  /* Typography */
+
+  .gallery-header {
+    font-size: 2.5rem;
+  }
+  .logo {
+    font-size: 5rem;
+  }
+  .creation {
+    font-size: 1.4rem;
+  }
+  .banner-text,
+  .image-gallery-text,
+  .social-text {
+    font-size: 1.2rem;
+  }
+  .arrow {
+    font-size: 1.7rem;
+  }
+  .fab {
+    font-size: 1.2rem;
+  }
+  footer .caption {
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .about-title {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  .form-section {
+    font-size: 1.1rem;
+  }
+
+  /* Images */
+
+  .bg-image {
+    padding-bottom: 1%;
+    border: 2px solid #f8f6f4;
+  }
+  .gallery-1 [class*="col-"] {
+    padding: 0.5%;
+  }
+  .gallery [class*="col-"] {
+    padding: 8rem;
+  }
+  .padded-g {
+    padding: 2%;
+  }
+  .logo-pic {
+    max-width: 25%;
+  }
+}
+/* ------- SM Media Query (48em / 768px) --------------- */
+/* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */
+
+@media (max-width: 48em) {
+  .show-sm {
+    display: block;
+  }
+  .hide-sm {
+    display: none;
+  }
+
+  .sm-text-center {
+    text-align: center;
+  }
+  .sm-text-left {
+    text-align: left;
+  }
+  .sm-text-right {
+    text-align: right;
+  }
+
+  .sm-padded-1 {
+    padding: 1rem;
+  }
+  .sm-padded-05 {
+    padding: 0.5rem;
+  }
+
+  .sm-padded-t-0 {
+    padding-top: 0;
+  }
+  .sm-padded-b-0 {
+    padding-bottom: 0;
+  }
+  .sm-padded-l-0 {
+    padding-left: 0;
+  }
+  .sm-padded-r-0 {
+    padding-right: 0;
+  }
+
+  .sm-margin-t-0 {
+    margin-top: 0;
+  }
+  .sm-margin-b-0 {
+    margin-bottom: 0;
+  }
+  .sm-margin-l-0 {
+    margin-left: 0;
+  }
+  .sm-margin-r-0 {
+    margin-right: 0;
+  }
+
+  /* Small Screen Background Position*/
+  .sm-bg-pos-t {
+    background-position: top;
+  }
+  .sm-bg-pos-b {
+    background-position: bottom;
+  }
+  .sm-bg-pos-r {
+    background-position: right;
+  }
+  .sm-bg-pos-l {
+    background-position: left;
+  }
+
+  /* Typography */
+  .gallery-header {
+    font-size: 1.9rem;
+  }
+}
+
+/* ------- XS Media Query (36em / 576px) --------------- */
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
+
+@media (max-width: 36em) {
+  .show-xs {
+    display: block;
+  }
+  .hide-xs {
+    display: none;
+  }
 }

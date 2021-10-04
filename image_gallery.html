@@ -2,7 +2,12 @@
 <!----------------------------------Head Starts-->
 <html>
   <head>
+
+      <!-----------------------------------------Viewport Meta Tag  -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Bellisima Image Gallery</title>
+
 
     <!--------------------------------------Gridlex-->
     <link
@@ -43,77 +48,78 @@
     </header>
 
     <!--------------------------------------------------------Banner-->
-    <section class="grid padded-2 bg-light">
+    <section class="grid padded-2 bg-light sm-padded-05">
       <div class="col-12 center">
         <h3 class="gallery-header">Art & Crafts Gallery</h3>
       </div>
     </section>
 
     <!--------------------------------------------------------Art Gallery  -->
-    <section class= "gallery-1 grid padded-g bg-light"> 
-      <div class="col-4">
-        <div class="bg-image portrait-xl-tall bg-art-7"></div>
+    <section class= "gallery-1 grid padded-g bg-light sm-padded md-padded-1"> 
+      <div class="col-4_md-6_sm-12">
+        <div class="bg-image portrait-xl-tall bg-art-7 md-image"></div>
       </div>
-      <div class="col-8">
-        <div class="bg-image square bg-art-5"></div>
+      <div class="col-8_md-6_sm-12">
+        <div class="bg-image square bg-art-5 md-image"></div>
       </div>
-      <div class="col-7">
-        <div class="bg-image landscape-wide bg-art-3"></div>
+      <div class="col-7_sm-12">
+        <div class="bg-image landscape-wide bg-art-3 md-image"></div>
       </div>
-      <div class="col-5 ">
-        <div class="bg-image landscape-xl-wide bg-art-2"></div>
+      <div class="col-5_sm-12">
+        <div class="bg-image landscape-xl-wide bg-art-2 md-image sm-bg-pos-t"></div>
       </div>
-      <div class="col-4">
-        <div class="bg-image square bg-art-8"></div>
+      <div class="col-4_xs-12 hide-md-land">
+        <div class="bg-image square bg-art-8 md-image"></div>
       </div>
-      <div class="col-4">
-        <div class="bg-image square bg-art-9"></div>
+      <div class="col-4_xs-12 hide-md-land">
+        <div class="bg-image square bg-art-9 md-image"></div>
       </div>
-      <div class="col-4">
-        <div class="bg-image square"></div>
+      <div class="col-4_xs-12 hide-md-land">
+        <div class="bg-image square md-image"></div>
       </div>
-      <div class="col-9">
-        <div class="bg-image landscape bg-art-5"></div>
+      <div class="col-9 hide-sm hide-md-land">
+        <div class="bg-image landscape bg-art-5 md-image"></div>
       </div>
-      <div class="col-3">
-        <div class="bg-image bg-art-2 portrait-xl-tall"></div>
+      <div class="col-3 hide-sm hide-md-land">
+        <div class="bg-image bg-art-2 portrait-xl-tall md-image"></div>
       </div>
-      <div class="col-3">
-        <div class="bg-image bg-art-7 landscape-xl-wide"></div>
+      <div class="col-3 hide-sm">
+        <div class="bg-image bg-art-7 landscape-xl-wide md-image"></div>
       </div>
-      <div class="col-3">
-        <div class="bg-image bg-art-9 landscape-xl-wide"></div>
+      <div class="col-3 hide-sm">
+        <div class="bg-image bg-art-9 landscape-xl-wide md-image"></div>
       </div>
-      <div class="col-3">
-        <div class="bg-image landscape-xl-wide"></div>
+      <div class="col-3 hide-sm">
+        <div class="bg-image landscape-xl-wide md-image"></div>
       </div>
-      <div class="col-3">
-        <div class="bg-image bg-art-4 landscape-xl-wide"></div>
+      <div class="col-3 hide-sm">
+        <div class="bg-image bg-art-4 landscape-xl-wide md-image"></div>
       </div>
-      <div class="col-12">
-        <div class="bg-image bg-art-8 landscape-sm bg-pos-t"></div>
+      <div class="col-12 hide-sm">
+        <div class="bg-image bg-art-8 landscape-sm bg-pos-t md-image"></div>
       </div>
     </section>
 
-        <!-------------------------------------------Call to action -->
-        <section class="grid padded-05 bg-featured">
-          <div class="col-12 center padded-2">
-            <p class="image-gallery-text">
-              Have a suggestion for my next painting? Send me an email <a href="contact.html" class= "arrow">&#8620</a>
-            </p>
-          </div>
-        </section>
-     <!------------------------------------------------Footer-->
-     <footer class="grid padded-4 bg-dark light-text">
-      <div class="col-8 padded-2">
-        <h2 class="caption">Bellisima</h2>
+   <!-------------------------------------------Call to action -->
+   <section class="grid padded-05 bg-featured">
+    <div class="col-12 center padded-2">
+      <p class="image-gallery-text">
+        Have a suggestion for my next painting? Send me an email<a href="contact.html" class="arrow">&#8620</a>
+      </p>
+    </div>
+  </section>
+    <!------------------------------------------------Footer-->
+    <footer class="grid padded-4 sm-padded-2 bg-dark light-text">
+      <div class="col-8_md-6_sm-12 padded-2 sm-padded-05">
+        <h2 class="caption sm-text-center">Bellisima</h2>
       </div>
-      <div class="col-4 center padded-2">
+      <div class="col-4_md-6_sm-12 center sm-text-center padded-2 sm-padded-05">
         <h3 class="social-text">You Can Follow Me Here!</h3>
         <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <a href ="#"><i class="fab fa-pinterest-p"></i></a>
         <a href="#"><i class="fab fa-facebook-f"></i></a>
       </div>
     </footer>
+  </body>
   </body>
 </html>

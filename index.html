@@ -2,10 +2,11 @@
 <!----------------------------------Head Starts-->
 <html>
   <head>
-    <title>Bellisima Art</title>
 
-    <!-----------------------------------------Viewport Meta Tag  -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-----------------------------------------Viewport Meta Tag  -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bellisima Art</title>
 
     <!--------------------------------------Gridlex-->
     <link
@@ -38,10 +39,10 @@
   <body>
     <!---------------------------------------Header -->
     <header class="grid padded-1 bg-dark">
-      <div class="col-4-middle padded-l">
+      <div class="col-4-middle_xs-12 padded-l sm-text-center">
         <img src="images/Logo.jpg" class="logo-pic window" />
       </div>
-      <nav class="col-8-middle right padded-r">
+      <nav class="col-8-middle_xs-12 right padded-r sm-text-center">
         <a href="/index.html">Home</a>
         <a href="/image_gallery.html">Image Gallery</a>
         <a href="/about.html">About</a>
@@ -50,10 +51,10 @@
     </header>
 
     <!-------------------------------------- Banner -->
-    <section class="grid padded bg-header tall-50">
+    <section class="grid padded bg-header tall-50 md-tall-40">
       <div class="col-12-middle padded-2">
-        <h2 class="logo center">Bellisima</h2>
-        <h3 class="caption center padded-05">Artwork and Crafts by Jude</h3>
+        <h2 class="logo center sm-text-center">Bellisima</h2>
+        <h3 class="caption center padded-05 sm-text-center">Artwork and Crafts by Jude</h3>
       </div>
     </section>
 
@@ -63,13 +64,13 @@
         <h3 class="creation">Newest Creations</h3>
       </div>
     </section>
-      <section class= "gallery grid-spaceBetween padded-g bg-light"> 
-      <div class="col-4 bg-image portrait-tall"></div>
-      <div class="col-8 bg-image bg-art-2 lanscape-wide"></div>
-      <div class="col-7 bg-image bg-art-3 portrait"></div>
-      <div class="col-5 bg-image bg-art-4 landscape"></div>
-      <div class="col-4 bg-image bg-art-5 square"></div>
-      <div class="col-4 bg-image bg-art-7 square"></div>
+      <section class= "gallery grid-spaceBetween padded-g md-padded-1 bg-light sm-padded-1"> 
+      <div class="col-4_md-6_sm-12 bg-image portrait-tall md-image"></div>
+      <div class="col-8_md-6_sm-12 bg-image bg-art-2 lanscape-wide md-image"></div>
+      <div class="col-7_sm-12 bg-image bg-art-3 portrait md-image"></div>
+      <div class="col-5_sm-12 bg-image bg-art-4 landscape md-image"></div>
+      <div class="col-4 bg-image bg-art-5 square md-image hide-sm"></div>
+      <div class="col-4 bg-image bg-art-7 square md-image hide-sm"></div>
 
     </section>
 
@@ -83,17 +84,16 @@
     </section>
 
   <!--------------------------------------------Footer -->
-    <footer class="grid padded-4 bg-dark light-text">
-      <div class="col-8 padded-2">
-        <h2 class=caption>Bellisima</h2>
-      </div>
-      <div class="col-4 center padded-2">
-        <h3 class=social-text>You Can Follow Me Here!</h3>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href ="#"><i class="fab fa-pinterest-p"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-      </div>
-
-    </footer>
+  <footer class="grid padded-4 sm-padded-2 bg-dark light-text">
+    <div class="col-8_md-6_sm-12 padded-2 sm-padded-05">
+      <h2 class="caption sm-text-center">Bellisima</h2>
+    </div>
+    <div class="col-4_md-6_sm-12 center sm-text-center padded-2 sm-padded-05">
+      <h3 class="social-text">You Can Follow Me Here!</h3>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href ="#"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+    </div>
+  </footer>
   </body>
 </html>

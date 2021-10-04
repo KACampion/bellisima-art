@@ -2,8 +2,11 @@
 <!----------------------------------Head Starts-->
 <html>
   <head>
-    <title>Bellisima About Page</title>
 
+      <!-----------------------------------------Viewport Meta Tag  -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bellisima About Page</title>
     <!--------------------------------------Gridlex-->
     <link
       rel="stylesheet"
@@ -37,7 +40,7 @@
   <!--------------------------------------- Body Begins -->
   <body>
     <!---------------------------------------Header -->
-    <header class="grid padded-2 center bg-dark">
+    <header class="grid padded-2 center bg-dark sm-text-center">
       <nav class="col-12-middle">
         <a href="/index.html">Home</a>
         <a href="/image_gallery.html">Image Gallery</a>
@@ -47,18 +50,18 @@
     </header>
     <!----------------------------------------Smaller Banner with Logo-->
     <section class="grid padded bg-light">
-      <div class="col-6 right padded-05">
+      <div class="col-6_sm-12 right sm-text-center padded-05">
         <img src="/images/Logo.jpg" class="window" />
       </div>
-      <div class="col-6-middle padded-05">
-        <h2 class="logo left">Bellisima</h2>
+      <div class="col-6-middle_sm-12 padded-05">
+        <h2 class="logo left sm-text-center">Bellisima</h2>
       </div>
     </section>
 
     <!---------------------------------------------------Picture and About -->
     <section class="grid bg-banner">
-      <div class="col-6 bg-image bg-portrait center tall-60 padded"></div>
-      <div class="col-6-middle padded">
+      <div class="col-6_sm-12 bg-image bg-portrait center tall-60 md-tall-40 padded"></div>
+      <div class="col-6-middle_sm-12 padded sm-text-center">
         <h3 class="about-title">About Jude</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quia
@@ -75,10 +78,8 @@
           quo.
         </p>
       </div>
-      <div class="col-6-middle padded">
-        <div>
+      <div class="col-6-middle_sm-12 padded sm-text-center">
           <h3 class="about-title">Why Trees Inspire Me</h3>
-        </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quia
           magni numquam esse excepturi doloremque. Vel, possimus in fuga dicta
@@ -94,27 +95,27 @@
           quo.
         </p>
       </div>
-      <div class="col-6 bg-image bg-logo bg-pos-t center tall-60 padded"></div>
+      <div class="col-6 bg-image bg-logo bg-pos-t center tall-60 padded hide-sm"></div>
     </section>
 
     <!-------------------------------------------Call to action -->
     <section class="grid padded-05 bg-featured">
       <div class="col-12 center padded-2">
         <p class="image-gallery-text">
-          Have a suggestion for my next painting? Send me an email <a href="contact.html" class= "arrow">&#8620</a>
+          Have a suggestion for my next painting? Send me an email<a href="contact.html" class="arrow">&#8620</a>
         </p>
       </div>
     </section>
 
     <!------------------------------------------------Footer-->
-    <footer class="grid padded-2 bg-dark light-text">
-      <div class="col-8 padded-2">
-        <h2 class="caption">Bellisima</h2>
+    <footer class="grid padded-4 sm-padded-2 bg-dark light-text">
+      <div class="col-8_md-6_sm-12 padded-2 sm-padded-05">
+        <h2 class="caption sm-text-center">Bellisima</h2>
       </div>
-      <div class="col-4 center padded-2">
+      <div class="col-4_md-6_sm-12 center sm-text-center padded-2 sm-padded-05">
         <h3 class="social-text">You Can Follow Me Here!</h3>
         <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <a href ="#"><i class="fab fa-pinterest-p"></i></a>
         <a href="#"><i class="fab fa-facebook-f"></i></a>
       </div>
     </footer>
