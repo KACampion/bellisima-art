@@ -233,6 +233,12 @@ p:last-child {
   font-style: italic;
 }
 
+h5 {
+  font-size: 2.5rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
 /*Background & Background Images*/
 
 .bg-featured {
