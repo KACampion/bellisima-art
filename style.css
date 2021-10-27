@@ -158,7 +158,6 @@ header a:hover {
 
 a:hover {
   color: #c0b44d;
-  font-style: normal;
   cursor: pointer;
 }
 
@@ -345,6 +344,27 @@ h5 {
 .bg-art-4 {
   background-image: url("/images/art_4.jpg");
 }
+.bg-art-5 {
+  background-image: url("/images/art_5.jpg");
+}
+.bg-art-6 {
+  background-image: url("/images/art_6.jpg");
+}
+.bg-art-7 {
+  background-image: url("/images/art_7.jpg");
+}
+.bg-art-8 {
+  background-image: url("/images/art_8.jpg");
+}
+.bg-art-9 {
+  background-image: url("/images/art_9.jpg");
+}
+.bg-art-10 {
+  background-image: url("/images/art_10.jpg");
+}
+.bg-art-11 {
+  background-image: url("/images/art_11.jpg");
+}
 
 .bg-wreath-1 {
   background-image: url("/images/wreath_1.jpg");
@@ -373,6 +393,7 @@ h5 {
 .bg-tree-1 {
   background-image: url("/images/fairy_tree.jpg");
 }
+
 .bg-tree-2 {
   background-image: url("/images/auburn_tree.jpg");
 }
@@ -391,6 +412,10 @@ h5 {
 
 .bg-tree-6 {
   background-image: url("/images/summer_tree.jpg");
+}
+
+.bg-tree-7 {
+  background-image: url("/images/fire_tree.jpg");
 }
 
 .bg-portrait {
