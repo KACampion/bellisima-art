@@ -385,6 +385,14 @@ h5 {
   background-image: url("/images/rainbow_tree.jpg");
 }
 
+.bg-tree-5 {
+  background-image: url("/images/teal_tree.jpg");
+}
+
+.bg-tree-6 {
+  background-image: url("/images/summer_tree.jpg");
+}
+
 .bg-portrait {
   background-image: url("/images/portrait.jpg");
   border: 1px solid #376168;
