@@ -249,6 +249,56 @@ h5 {
   line-height: 1.5;
 }
 
+/* Hamburger Menu */
+.show-md {
+  display: none;
+}
+
+.hamburger-button {
+  cursor: pointer;
+  color: #ececc5;
+  display: inline-block;
+  padding: 0 0.5rem;
+  font-weight: 100;
+  font-size: 2.5rem;
+  line-height: 0.8;
+  margin-top: -0.7rem;
+  position: fixed;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 2;
+}
+
+.mob-menu {
+  display: none;
+  background-color: #ececc5;
+  padding: 5%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.mob-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #380906;
+  padding: 5vh 5%;
+  display: block;
+  font: normal;
+  font-size: 1.5rem;
+}
+
+.ham-menu a:hover {
+  color: #376168;
+}
+
+.hamburger-button.active {
+  color: #376168;
+}
+
 /*Background & Background Images*/
 
 .bg-featured {
@@ -282,11 +332,18 @@ h5 {
 .bg-header {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/geometric-leaves.png");
 }
+
 .bg-art-1 {
-  background-image: url("/images/fairy_tree.jpg");
+  background-image: url("/images/art_1.jpg");
 }
 .bg-art-2 {
   background-image: url("/images/art_2.jpg");
+}
+.bg-art-3 {
+  background-image: url("/images/art_3.jpg");
+}
+.bg-art-4 {
+  background-image: url("/images/art_4.jpg");
 }
 
 .bg-wreath-1 {
@@ -305,19 +362,26 @@ h5 {
   background-image: url("/images/wreath_4.jpg");
 }
 
-.bg-art-6 {
+.bg-wreath-5 {
   background-image: url("/images/wreath_5.jpeg");
 }
 
-.bg-art-7 {
+.bg-wreath-6 {
+  background-image: url("/images/wreath_6.jpg");
+}
+
+.bg-tree-1 {
+  background-image: url("/images/fairy_tree.jpg");
+}
+.bg-tree-2 {
   background-image: url("/images/auburn_tree.jpg");
 }
 
-.bg-art-8 {
+.bg-tree-3 {
   background-image: url("/images/ice_tree.jpg");
 }
 
-.bg-art-9 {
+.bg-tree-4 {
   background-image: url("/images/rainbow_tree.jpg");
 }
 

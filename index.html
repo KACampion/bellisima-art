@@ -38,13 +38,25 @@
     <div class="col-4-middle_xs-12 padded-l sm-text-center">
       <img src="images/logo.png" class="logo-pic window" />
     </div>
-    <nav class="col-8-middle_xs-12 right padded-r sm-text-center">
+    <nav class="col-8-middle_xs-12 right padded-r sm-text-center hide-md ">
       <a href="/index.html">Home</a>
       <a href="/image_gallery.html">Image Gallery</a>
       <a href="/about.html">About</a>
       <a href="/contact.html">Contact</a>
     </nav>
+    <div class="col-8 right">
+      <a class="hamburger-button show-md right">&#9776; </a>
+    </div>
   </header>
+<!----------------------------------------------Hamburger Menu  -->
+  <div class="mob-menu right">
+    <nav class="ham-menu">
+      <a href="/index.html">Home</a>
+      <a href="/image_gallery.html">Image Gallery</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    </div>
 
   <!-------------------------------------- Banner -->
   <section class="grid padded bg-header tall-50 md-image">
@@ -60,13 +72,20 @@
       <h3 class="creation">Newest Creations</h3>
     </div>
   </section>
-  <section class="gallery grid-spaceBetween padded-g md-padded-1 bg-light sm-padded-1">
-    <div class="col-5_md-6_sm-12 bg-image bg-image bg-art-2  portrait-tall-xl md-image"></div>
-    <div class="col-6_sm-12 bg-image bg-art-1 md-image"></div>
-    <div class="col-5_sm-12 bg-image bg-art-9 portrait-tall md-image"></div>
-    <div class="col-5_sm-12 bg-image bg-art-4 landscape md-image"></div>
-    <div class="col-4 bg-image bg-art-8 square md-image hide-sm"></div>
-    <div class="col-4 bg-image bg-art-7 square md-image hide-sm"></div>
+    <section class= "gallery grid-spaceBetween padded-g md-padded-1 bg-light sm-padded-1"> 
+      <!-- Row 1 -->
+    <div class="col-4_md-6_sm-12 bg-image bg-art-2 portrait-xl-tall md-image"></div>
+    <div class="col-4_md-6_sm-12 bg-image bg-wreath-1 portrait-xl-tall md-image"></div>
+    <div class="col-4_md-6_sm-12 bg-image bg-tree-2 portrait-xl-tall md-image"></div>
+
+    <!-- Row 2 -->
+    <div class="col-6_sm-12 bg-image bg-art-3 portrait-xl-tall md-image"></div>
+    <div class="col-6_sm-12 bg-image bg-art-4 portrait-xl-tall md-image hide-sm"></div>
+    
+    <!-- Row 3 -->
+    <div class="col-4_md-6_sm-12 bg-image bg-wreath-2 portrait-xl-tall  md-image"></div>
+    <div class="col-4_md-6_sm-12 bg-image bg-tree-1 portrait-xl-tall md-image hide-sm"></div>
+    <div class="col-4_md-6_sm-12 bg-image bg-wreath-5 portrait-xl-tall md-image hide-sm"></div>
 
   </section>
 
@@ -91,6 +110,13 @@
       <a href="#"><i class="fab fa-facebook-f"></i></a>
     </div>
   </footer>
-</body>
 
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script src="main.js"></script>
+</body>
 </html>
