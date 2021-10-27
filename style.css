@@ -97,6 +97,9 @@ a {
   color: white;
 }
 
+.tall-30{
+  min-height: 30vh;
+}
 .tall-50 {
   min-height: 50vh;
 }
@@ -279,7 +282,9 @@ h5 {
 .bg-header {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/geometric-leaves.png");
 }
-
+.bg-art-1{
+  background-image: url("/images/fairy_tree.jpg");
+}
 .bg-art-2 {
   background-image: url("/images/wreath_1.jpg");
 }
@@ -297,7 +302,7 @@ h5 {
 }
 
 .bg-art-6 {
-  background-image: url("/images/art_1.jpg");
+  background-image: url("/images/wreath_5.jpeg");
 }
 
 .bg-art-7 {
@@ -318,12 +323,8 @@ h5 {
 }
 
 .window {
-  max-width: 40%;
-  border-radius: 73% 47%;
-  -webkit-border-radius: 73% 47%;
-  -moz-border-radius: 73% 47%;
-  -ms-border-radius: 73% 47%;
-  -o-border-radius: 73% 47%;
+  max-width: 35%;
+  border-radius: 45%;
   box-shadow: 0.5vw 0.4vw 0.7vw #c0b44d;
 }
 
@@ -475,7 +476,7 @@ textarea {
     padding: 8rem;
   }
   .md-image {
-    min-height: 25vh;
+    min-height: 40vh;
   }
   .md-padded-1 {
     padding: 1rem;
