@@ -275,34 +275,44 @@ h5 {
 }
 
 .bg-logo {
-  background-image: url("/images/Logo.jpg");
+  background-image: url("/images/logo");
   border: 1px solid #376168;
 }
 
 .bg-header {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/geometric-leaves.png");
 }
+<<<<<<< Updated upstream
 .bg-art-1{
   background-image: url("/images/fairy_tree.jpg");
 }
 .bg-art-2 {
+=======
+
+.bg-wreath-1 {
+>>>>>>> Stashed changes
   background-image: url("/images/wreath_1.jpg");
 }
 
-.bg-art-3 {
+.bg-wreath-2 {
   background-image: url("/images/wreath_3.jpg");
 }
 
-.bg-art-4 {
+.bg-wreath-3 {
   background-image: url("/images/wreath_2.jpg");
 }
 
-.bg-art-5 {
+.bg-wreath-4 {
   background-image: url("/images/wreath_4.jpg");
 }
 
+<<<<<<< Updated upstream
 .bg-art-6 {
   background-image: url("/images/wreath_5.jpeg");
+=======
+.bg-wreath-5 {
+  background-image: url("/images/wreath_5.jpg");
+>>>>>>> Stashed changes
 }
 
 .bg-art-7 {
