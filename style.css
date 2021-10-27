@@ -678,7 +678,9 @@ textarea {
   .hide-sm {
     display: none;
   }
-
+  .md-image {
+    min-height: 60vh;
+  }
   .sm-text-center {
     text-align: center;
   }
