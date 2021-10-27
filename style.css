@@ -97,7 +97,7 @@ a {
   color: white;
 }
 
-.tall-30{
+.tall-30 {
   min-height: 30vh;
 }
 .tall-50 {
@@ -282,15 +282,14 @@ h5 {
 .bg-header {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/geometric-leaves.png");
 }
-<<<<<<< Updated upstream
-.bg-art-1{
+.bg-art-1 {
   background-image: url("/images/fairy_tree.jpg");
 }
 .bg-art-2 {
-=======
+  background-image: url("/images/art_2.jpg");
+}
 
 .bg-wreath-1 {
->>>>>>> Stashed changes
   background-image: url("/images/wreath_1.jpg");
 }
 
@@ -306,13 +305,8 @@ h5 {
   background-image: url("/images/wreath_4.jpg");
 }
 
-<<<<<<< Updated upstream
 .bg-art-6 {
   background-image: url("/images/wreath_5.jpeg");
-=======
-.bg-wreath-5 {
-  background-image: url("/images/wreath_5.jpg");
->>>>>>> Stashed changes
 }
 
 .bg-art-7 {
