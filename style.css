@@ -754,11 +754,6 @@ textarea {
 
   .window {
     max-width: 40%;
-    border-radius: 73% 47%;
-    -webkit-border-radius: 73% 47%;
-    -moz-border-radius: 73% 47%;
-    -ms-border-radius: 73% 47%;
-    -o-border-radius: 73% 47%;
     box-shadow: 0.8vw 0.8vw 1vw #c0b44d;
   }
 }
