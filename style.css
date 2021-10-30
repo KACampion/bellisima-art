@@ -492,6 +492,10 @@ footer .caption {
   font-size: 4rem;
 }
 
+hr {
+  display: none;
+}
+
 /* Gallery Photos */
 
 .gallery-1 [class*="col-"] {
@@ -681,6 +685,9 @@ textarea {
 /* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */
 
 @media (max-width: 48em) {
+  p:last-child {
+    padding: 2.5rem;
+  }
   .show-sm {
     display: block;
   }
@@ -688,7 +695,13 @@ textarea {
     display: none;
   }
   .md-image {
-    min-height: 60vh;
+    min-height: 50vh;
+  }
+  .md-banner {
+    min-height: 30vh;
+  }
+  .caption {
+    font-size: 1.4rem;
   }
   .sm-text-center {
     text-align: center;
@@ -750,6 +763,27 @@ textarea {
   /* Typography */
   .gallery-header {
     font-size: 1.9rem;
+  }
+
+  .about-logo {
+    max-width: 13vh;
+  }
+
+  hr {
+    display: block;
+    border: 2px solid #ececc5;
+    padding-bottom: 1rem;
+  }
+
+  [class*="grid-"] > [class*="col-6"],
+  [class*="grid_"] > [class*="col-6"],
+  [class~="grid"] > [class*="col-6"].mob-logo {
+    flex-basis: 22%;
+    max-width: 50%;
+  }
+
+  .logo {
+    font-size: 4rem;
   }
 
   .window {
