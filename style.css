@@ -492,10 +492,6 @@ footer .caption {
   font-size: 4rem;
 }
 
-hr {
-  display: none;
-}
-
 /* Gallery Photos */
 
 .gallery-1 [class*="col-"] {
@@ -767,12 +763,6 @@ textarea {
 
   .about-logo {
     max-width: 13vh;
-  }
-
-  hr {
-    display: block;
-    border: 2px solid #ececc5;
-    padding-bottom: 1rem;
   }
 
   [class*="grid-"] > [class*="col-6"],
